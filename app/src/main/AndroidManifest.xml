@@ -36,9 +36,9 @@
             <!-- </intent-filter> -->
         </activity>
 
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/network_security_config" />
+        <!--<meta-data-->
+            <!--android:name="com.google.android.actions"-->
+            <!--android:resource="@xml/network_security_config" />-->
 
         <activity android:name="com.lch.carparking.structure.CarPaking.CarParkActivity">
 
