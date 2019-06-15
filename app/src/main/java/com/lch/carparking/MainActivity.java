@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.header_btn:
                 String ButtonText = navBtnHeader.getText().toString();
                 Log.w("asd","ButtonText :  " + "ButtonText");
-  
+
                 if("登入".equals(ButtonText)){
                     Intent i = new Intent(this, LoginActivity.class);
                     i.putExtra("targetPage","MainActivity");
