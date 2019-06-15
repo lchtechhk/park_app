@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <array name="place_array">
+        <item>麥當勞</item>
+        <item>洗手間</item>
+        <item>百老滙</item>
+    </array>
+</resources>

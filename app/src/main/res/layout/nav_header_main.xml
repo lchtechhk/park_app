@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="ID : "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/navId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="ID"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center_vertical"
+                   android:text="車牌 : "
+                   android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+               <TextView
+                   android:id="@+id/navLicense"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center_vertical"
+                   android:layout_weight="1"
+                   android:text="車牌"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+           </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="身份證 : "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/navHKID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="身份證"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100px"
+        android:paddingBottom="100px"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+         <Button
+             android:id="@+id/header_btn"
+             android:background="@color/blue0895ef"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:textColor="#FFF"
+             android:textSize="40px"
+             android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="40px"
+            android:layout_height="match_parent"></LinearLayout>
+        <Button
+            android:id="@+id/header_btn_2"
+            android:background="@color/greenA5DC86"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFF"
+            android:textSize="40px"
+            android:layout_weight="1"
+            android:text="註冊"/>
+    </LinearLayout>
+</LinearLayout>
